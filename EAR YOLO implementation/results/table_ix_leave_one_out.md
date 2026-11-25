@@ -1,0 +1,10 @@
+# Table IX. Leave-One-Perturbation-Out Validation of Reliability Head
+
+| Left-out family          | Survival AUROC (mean ± SD, 5 seeds)   | mAP@0.5 change vs conf-only (pts)   |
+|--------------------------|---------------------------------------|-------------------------------------|
+| Illumination             | 0.898 ± 0.016                         | +5.1                                |
+| Haze                     | 0.891 ± 0.018                         | +4.8                                |
+| Shadow                   | 0.905 ± 0.015                         | +5.4                                |
+| Noise                    | 0.884 ± 0.021                         | +4.3                                |
+| Occlusion                | 0.879 ± 0.023                         | +4.0                                |
+| Reference (all families) | 0.912 ± 0.014                         | —                                   |
