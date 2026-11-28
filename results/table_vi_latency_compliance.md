@@ -1,0 +1,10 @@
+# Table VI. Realized Rolling-Window Latency Compliance and Estimator Error
+
+| Dataset           | Method                     | Mean Lat. (ms)   |   Max Rolling Mean (ms) | Frames > B (%)     | Estimator MAE (ms)   |
+|-------------------|----------------------------|------------------|-------------------------|--------------------|----------------------|
+| Synthetic (1,500) | Proposed (Spatial + guard) | 34.1 ± 0.2       |                    35.2 | 1.4% (max +0.4 ms) | 0.31 ± 0.08          |
+| Synthetic (1,500) | Scalar head + guard (N1)   | 34.3 ± 0.2       |                    35.4 | 1.8% (max +0.6 ms) | 0.33 ± 0.09          |
+| Synthetic (1,500) | C3g (Hand-tuned + guard)   | 34.2 ± 0.3       |                    35.3 | 1.6% (max +0.5 ms) | 0.32 ± 0.08          |
+| Real-Field (500)  | Proposed (Spatial + guard) | 34.0 ± 0.2       |                    35.1 | 1.7% (max +0.3 ms) | 0.34 ± 0.09          |
+| Real-Field (500)  | Scalar head + guard (N1)   | 34.2 ± 0.3       |                    35.4 | 2.5% (max +0.6 ms) | 0.36 ± 0.10          |
+| Real-Field (500)  | C3g (Hand-tuned + guard)   | 34.1 ± 0.3       |                    35.3 | 2.5% (max +0.5 ms) | 0.35 ± 0.09          |
